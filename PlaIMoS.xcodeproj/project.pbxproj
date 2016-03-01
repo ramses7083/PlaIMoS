@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2570427A1C8611B6001B81F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257042791C8611B6001B81F9 /* AppDelegate.swift */; };
+		2570427C1C8611B6001B81F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2570427B1C8611B6001B81F9 /* ViewController.swift */; };
+		2570427F1C8611B6001B81F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2570427D1C8611B6001B81F9 /* Main.storyboard */; };
+		257042811C8611B6001B81F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257042801C8611B6001B81F9 /* Assets.xcassets */; };
+		257042841C8611B6001B81F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257042821C8611B6001B81F9 /* LaunchScreen.storyboard */; };
+		2570428F1C8611B6001B81F9 /* PlaIMoSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2570428E1C8611B6001B81F9 /* PlaIMoSTests.swift */; };
+		2570429A1C8611B6001B81F9 /* PlaIMoSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257042991C8611B6001B81F9 /* PlaIMoSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2570428B1C8611B6001B81F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2570426E1C8611B6001B81F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 257042751C8611B6001B81F9;
+			remoteInfo = PlaIMoS;
+		};
+		257042961C8611B6001B81F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2570426E1C8611B6001B81F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 257042751C8611B6001B81F9;
+			remoteInfo = PlaIMoS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		257042761C8611B6001B81F9 /* PlaIMoS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaIMoS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		257042791C8611B6001B81F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2570427B1C8611B6001B81F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2570427E1C8611B6001B81F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		257042801C8611B6001B81F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		257042831C8611B6001B81F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		257042851C8611B6001B81F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2570428A1C8611B6001B81F9 /* PlaIMoSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaIMoSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2570428E1C8611B6001B81F9 /* PlaIMoSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaIMoSTests.swift; sourceTree = "<group>"; };
+		257042901C8611B6001B81F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257042951C8611B6001B81F9 /* PlaIMoSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaIMoSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		257042991C8611B6001B81F9 /* PlaIMoSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaIMoSUITests.swift; sourceTree = "<group>"; };
+		2570429B1C8611B6001B81F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257042731C8611B6001B81F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257042871C8611B6001B81F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257042921C8611B6001B81F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2570426D1C8611B5001B81F9 = {
+			isa = PBXGroup;
+			children = (
+				257042781C8611B6001B81F9 /* PlaIMoS */,
+				2570428D1C8611B6001B81F9 /* PlaIMoSTests */,
+				257042981C8611B6001B81F9 /* PlaIMoSUITests */,
+				257042771C8611B6001B81F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		257042771C8611B6001B81F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257042761C8611B6001B81F9 /* PlaIMoS.app */,
+				2570428A1C8611B6001B81F9 /* PlaIMoSTests.xctest */,
+				257042951C8611B6001B81F9 /* PlaIMoSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		257042781C8611B6001B81F9 /* PlaIMoS */ = {
+			isa = PBXGroup;
+			children = (
+				257042791C8611B6001B81F9 /* AppDelegate.swift */,
+				2570427B1C8611B6001B81F9 /* ViewController.swift */,
+				2570427D1C8611B6001B81F9 /* Main.storyboard */,
+				257042801C8611B6001B81F9 /* Assets.xcassets */,
+				257042821C8611B6001B81F9 /* LaunchScreen.storyboard */,
+				257042851C8611B6001B81F9 /* Info.plist */,
+			);
+			path = PlaIMoS;
+			sourceTree = "<group>";
+		};
+		2570428D1C8611B6001B81F9 /* PlaIMoSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2570428E1C8611B6001B81F9 /* PlaIMoSTests.swift */,
+				257042901C8611B6001B81F9 /* Info.plist */,
+			);
+			path = PlaIMoSTests;
+			sourceTree = "<group>";
+		};
+		257042981C8611B6001B81F9 /* PlaIMoSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				257042991C8611B6001B81F9 /* PlaIMoSUITests.swift */,
+				2570429B1C8611B6001B81F9 /* Info.plist */,
+			);
+			path = PlaIMoSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		257042751C8611B6001B81F9 /* PlaIMoS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2570429E1C8611B6001B81F9 /* Build configuration list for PBXNativeTarget "PlaIMoS" */;
+			buildPhases = (
+				257042721C8611B6001B81F9 /* Sources */,
+				257042731C8611B6001B81F9 /* Frameworks */,
+				257042741C8611B6001B81F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaIMoS;
+			productName = PlaIMoS;
+			productReference = 257042761C8611B6001B81F9 /* PlaIMoS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		257042891C8611B6001B81F9 /* PlaIMoSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257042A11C8611B6001B81F9 /* Build configuration list for PBXNativeTarget "PlaIMoSTests" */;
+			buildPhases = (
+				257042861C8611B6001B81F9 /* Sources */,
+				257042871C8611B6001B81F9 /* Frameworks */,
+				257042881C8611B6001B81F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2570428C1C8611B6001B81F9 /* PBXTargetDependency */,
+			);
+			name = PlaIMoSTests;
+			productName = PlaIMoSTests;
+			productReference = 2570428A1C8611B6001B81F9 /* PlaIMoSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		257042941C8611B6001B81F9 /* PlaIMoSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257042A41C8611B6001B81F9 /* Build configuration list for PBXNativeTarget "PlaIMoSUITests" */;
+			buildPhases = (
+				257042911C8611B6001B81F9 /* Sources */,
+				257042921C8611B6001B81F9 /* Frameworks */,
+				257042931C8611B6001B81F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				257042971C8611B6001B81F9 /* PBXTargetDependency */,
+			);
+			name = PlaIMoSUITests;
+			productName = PlaIMoSUITests;
+			productReference = 257042951C8611B6001B81F9 /* PlaIMoSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2570426E1C8611B6001B81F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ramses Miramontes Meza";
+				TargetAttributes = {
+					257042751C8611B6001B81F9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					257042891C8611B6001B81F9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 257042751C8611B6001B81F9;
+					};
+					257042941C8611B6001B81F9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 257042751C8611B6001B81F9;
+					};
+				};
+			};
+			buildConfigurationList = 257042711C8611B6001B81F9 /* Build configuration list for PBXProject "PlaIMoS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2570426D1C8611B5001B81F9;
+			productRefGroup = 257042771C8611B6001B81F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257042751C8611B6001B81F9 /* PlaIMoS */,
+				257042891C8611B6001B81F9 /* PlaIMoSTests */,
+				257042941C8611B6001B81F9 /* PlaIMoSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257042741C8611B6001B81F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257042841C8611B6001B81F9 /* LaunchScreen.storyboard in Resources */,
+				257042811C8611B6001B81F9 /* Assets.xcassets in Resources */,
+				2570427F1C8611B6001B81F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257042881C8611B6001B81F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257042931C8611B6001B81F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257042721C8611B6001B81F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2570427C1C8611B6001B81F9 /* ViewController.swift in Sources */,
+				2570427A1C8611B6001B81F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257042861C8611B6001B81F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2570428F1C8611B6001B81F9 /* PlaIMoSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257042911C8611B6001B81F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2570429A1C8611B6001B81F9 /* PlaIMoSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2570428C1C8611B6001B81F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 257042751C8611B6001B81F9 /* PlaIMoS */;
+			targetProxy = 2570428B1C8611B6001B81F9 /* PBXContainerItemProxy */;
+		};
+		257042971C8611B6001B81F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 257042751C8611B6001B81F9 /* PlaIMoS */;
+			targetProxy = 257042961C8611B6001B81F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2570427D1C8611B6001B81F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2570427E1C8611B6001B81F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		257042821C8611B6001B81F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				257042831C8611B6001B81F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2570429C1C8611B6001B81F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2570429D1C8611B6001B81F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2570429F1C8611B6001B81F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlaIMoS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasoft.PlaIMoS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		257042A01C8611B6001B81F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlaIMoS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasoft.PlaIMoS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		257042A21C8611B6001B81F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlaIMoSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasoft.PlaIMoSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaIMoS.app/PlaIMoS";
+			};
+			name = Debug;
+		};
+		257042A31C8611B6001B81F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlaIMoSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasoft.PlaIMoSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaIMoS.app/PlaIMoS";
+			};
+			name = Release;
+		};
+		257042A51C8611B6001B81F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlaIMoSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasoft.PlaIMoSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlaIMoS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		257042A61C8611B6001B81F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlaIMoSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasoft.PlaIMoSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlaIMoS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		257042711C8611B6001B81F9 /* Build configuration list for PBXProject "PlaIMoS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2570429C1C8611B6001B81F9 /* Debug */,
+				2570429D1C8611B6001B81F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2570429E1C8611B6001B81F9 /* Build configuration list for PBXNativeTarget "PlaIMoS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2570429F1C8611B6001B81F9 /* Debug */,
+				257042A01C8611B6001B81F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		257042A11C8611B6001B81F9 /* Build configuration list for PBXNativeTarget "PlaIMoSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257042A21C8611B6001B81F9 /* Debug */,
+				257042A31C8611B6001B81F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		257042A41C8611B6001B81F9 /* Build configuration list for PBXNativeTarget "PlaIMoSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257042A51C8611B6001B81F9 /* Debug */,
+				257042A61C8611B6001B81F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2570426E1C8611B6001B81F9 /* Project object */;
+}
